@@ -1,5 +1,12 @@
 # Learning Algorithm
 
+## Neural Network Architecture
+
+Listed below is a diagram outlining the Neural Network used in the DQN algorithm.   It consists of a fully connected network with one input node per observation state (37 nodes), connected to 2 levels of hidden layers (64 nodes each), connected to an output layer (4 nodes) - 1 node per available action.
+
+![Neural Network Architecture](/Neural-Network-Architecture.png?raw=true)
+
+
 ## DQN Agent
 
 A DQN agent was used to perform training.  The code for the neural network component is in dqn_agent.py  The following parameters were used:
