@@ -37,6 +37,23 @@ Minimum Epsilon value of 0.01
 
 # Plot of Rewards
 
+![Plot of Rewards](/plot-of-rewards.jpg?raw=true)
+
+| Episode  | Avg Score |
+| ------------- | ------------- |
+| 100  | 1.46  |
+| 200  | 4.69  |
+| 300  | 7.82  |
+| 400  | 10.49  |
+| 500  | 13.15  |
+| 600  | 14.73  |
+| 700  | 14.53  |
+| 800  | 14.94  |
+| 900  | 15.59  |
+| 918  | 16.00  |
+
+As can be seen the agent's average score (over last 100 episodes) steadily increases until we hit our desired/target average score.   There is a minor decline between episodes 500 and 600, but as can be seen it quickly recovers.
+
 # Ideas for Future Work
 
 ## Try tuning DQN Neural Network parameters
@@ -48,7 +65,10 @@ One area to explore would be whether the other corresponding hyperparamters woul
 
 ## Try more advanced Reinforcement Learning stategies
 
-While the DQN approach is satisfactory in solving the problem, using Double DQN's, Dueling SQN's, or Prioritized Experience Learning Replay could provide superious results.
+While the DQN approach is satisfactory in solving the problem, using Double DQN's, Dueling SQN's, or Prioritized Experience Learning Replay could be explored to see if they provide superior results.
+
+For this project, it is probably overkill as there is no major decline in the Average score the longer the DQN is trained.   We stop the training when we hit our target, so it is possible that over a longer number of episodes the DQN performance would degrade.   Also other algorithms could potentially provide higher scores in the same number of episodes.
+
 
 
 
