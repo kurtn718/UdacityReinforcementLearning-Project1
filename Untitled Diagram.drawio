@@ -1,31 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2020-10-17T18:50:37.448Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="6BJEcTpqSvDfJGaMW_Ae" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-17T18:51:57.578Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="dPr6n3nm8XF5LWzerqCC" version="13.8.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="902" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SHO6RblA5cBtFDI0t-4H-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SHO6RblA5cBtFDI0t-4H-1" target="SHO6RblA5cBtFDI0t-4H-2">
+        <mxCell id="SHO6RblA5cBtFDI0t-4H-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SHO6RblA5cBtFDI0t-4H-1" target="SHO6RblA5cBtFDI0t-4H-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SHO6RblA5cBtFDI0t-4H-1" value="Input (37 Nodes)&lt;br&gt;1 Node per Observation State" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SHO6RblA5cBtFDI0t-4H-1" value="Input (37 Nodes)&lt;br&gt;1 Node per Observation State" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SHO6RblA5cBtFDI0t-4H-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SHO6RblA5cBtFDI0t-4H-2" target="SHO6RblA5cBtFDI0t-4H-3">
+        <mxCell id="SHO6RblA5cBtFDI0t-4H-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SHO6RblA5cBtFDI0t-4H-2" target="SHO6RblA5cBtFDI0t-4H-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SHO6RblA5cBtFDI0t-4H-2" value="Fully Connected Hidden Layer 1&amp;nbsp;&lt;br&gt;(64 Nodes)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SHO6RblA5cBtFDI0t-4H-2" value="Fully Connected Hidden Layer 1&amp;nbsp;&lt;br&gt;(64 Nodes)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SHO6RblA5cBtFDI0t-4H-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SHO6RblA5cBtFDI0t-4H-3" target="SHO6RblA5cBtFDI0t-4H-4">
+        <mxCell id="SHO6RblA5cBtFDI0t-4H-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SHO6RblA5cBtFDI0t-4H-3" target="SHO6RblA5cBtFDI0t-4H-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SHO6RblA5cBtFDI0t-4H-3" value="Fully Connected Hidden Layer 2&lt;br&gt;(64 Nodes)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SHO6RblA5cBtFDI0t-4H-3" value="Fully Connected Hidden Layer 2&lt;br&gt;(64 Nodes)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SHO6RblA5cBtFDI0t-4H-4" value="Output (4 Nodes)&lt;br&gt;1 Node per Action" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SHO6RblA5cBtFDI0t-4H-4" value="Output (4 Nodes)&lt;br&gt;1 Node per Action" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SHO6RblA5cBtFDI0t-4H-11" value="Neural Network Diagram" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SHO6RblA5cBtFDI0t-4H-11" value="Neural Network Diagram" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="365" y="10" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
