@@ -1,5 +1,24 @@
 # Learning Algorithm
 
+The code in this repository is an implementation of the DQN learning algorithm.    
+
+The algorithm considers the environment solved when an average score is over 13 over 100 consecutive episodes.   An episode is a single playing of the game to attempt to collect as many points (yellow bananas) as possible.
+
+For each episode, the following steps are performed:
+
+1) Initialize environment, Set Score to 0 
+2) Obtain environment state
+3) Use the environment state, to determine the next action
+4) Pass in the action to the environment, to determine the reward (i.e +1 for collecting a Yellow banana)
+5) Repeat Steps 2-4, until either the environment informs us that game is over or quit if we go over our max number of moves (to avoid playing an infinite game)
+
+For Step #3 the DQN algorithm is used.  Please see the below diagram for more details: 
+
+
+![DQN Learning Algoritm](/dqn-learning-algorithm.png?raw=true)
+Image obtained from:  https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-i-q-learning-sarsa-dqn-ddpg-72a5e0cb6287
+
+
 ## Neural Network Architecture
 
 Listed below is a diagram outlining the Neural Network used in the DQN algorithm.   It consists of a fully connected network with one input node per observation state (37 nodes), connected to 2 levels of hidden layers (64 nodes each), connected to an output layer (4 nodes) - 1 node per available action.
@@ -7,7 +26,7 @@ Listed below is a diagram outlining the Neural Network used in the DQN algorithm
 ![Neural Network Architecture](/Neural-Network-Architecture.png?raw=true)
 
 
-## DQN Agent
+## Neural Network Parameters
 
 A DQN agent was used to perform training.  The code for the neural network component is in dqn_agent.py  The following parameters were used:
 
